@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisão Aleatória de Pessoas em Grupos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 >Divisão Aleatória de Pessoas em Grupos</h1>
+    <div class="input-section">
+      <label for="names">Insira os nomes das pessoas (um por linha):</label>
+      <textarea id="names" rows="5"></textarea>
+      <div class="input-group">
+      <label for="num-groups">Quantidade de Grupos:</label>
+      <input type="number" id="num-groups" min="1" value="2">
+      </div>
+      <button onclick="divideGrupos()">Dividir em Grupos</button>
+    </div>
+    <div id="output"></div>
+  </div>
+  <footer>
+    <p>Desenvolvido por Vagner Ferreira - &copy; 2024</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
